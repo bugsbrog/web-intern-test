@@ -1,14 +1,51 @@
+* {
+	font-family: sans-serif;
+}
+
 .container {
-  margin: auto;
-  padding: 3rem 0 0 5rem;
+	margin: auto;
+	padding: 3rem 8rem 0 8rem; // top left bottom right
 }
 
 img {
-  width: 20%;
+	width: 20%;
 }
 
 .page-title {
-  font-size: 3rem;
-  font-family: sans-serif;
-  padding-top: 3rem;
+	font-size: 3rem;
+	padding-top: 3rem;
+}
+
+.page-paragraph {
+	font-size: 1.2rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.lorem-title {
+	font-size: 2.2rem;
+}
+
+.lists {
+	display: inline-block;
+  padding-right: 2rem;
+}
+
+.lists2 {
+	display: inline-block;
+}
+
+.button {
+  padding-top: 1.2rem;
+}
+
+button {
+	padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+	text-transform: uppercase;
+	background-color: gray;
+	border-radius: 8px;
+  border: none;
+	color: white;
 }
