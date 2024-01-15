@@ -1,3 +1,14 @@
+.container {
+  margin: auto;
+  padding: 3rem 0 0 5rem;
+}
+
 img {
-	padding: 3rem 0 0 5rem;
+  width: 20%;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-family: sans-serif;
+  padding-top: 3rem;
 }
